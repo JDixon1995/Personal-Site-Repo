@@ -1,3 +1,54 @@
 .App {
   text-align: center;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  color:antiquewhite;
+}
+
+html {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), 
+  transparent),
+  url("./images/background-image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+h1, h2, h3 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.header-section {
+  height: 25vh;
+}
+
+.block-section {
+  height: 25vh;
+  background-color: black;
+  border: 2px solid antiquewhite;
+  border-radius: 4px solid
+}
+
+.top-level-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: grey;
+  border: 2px solid grey;
+  border-radius: 2px;
+}
+
+.tool-section {
+  height: 25vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
 }
