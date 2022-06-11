@@ -13,13 +13,13 @@ const ToolSection = () => {
 		<div className="top-level-row">
 		</div>
 		<div className="tool-bar">
-			<img src={ReactIcon}></img>
-			<img src={ExpressIcon}></img>
-			<img src={NodeIcon}></img>
-			<img src={MongoIcon}></img>
-			<img src={BootstrapIcon}></img>
-			<img src={GitIcon}></img>
-			<img src={ReduxIcon}></img>
+			<img src={ReactIcon} alt={'React'}></img>
+			<img src={ExpressIcon} alt={'Express'}></img>
+			<img src={NodeIcon} alt={'Node'}></img>
+			<img src={MongoIcon} alt={'Mongo'}></img>
+			<img src={BootstrapIcon} alt={'Bootstrap'}></img>
+			<img src={GitIcon} alt={'Git'}></img>
+			<img src={ReduxIcon} alt={'Redux'}></img>
 		</div>
 		<h5>Tools I Use</h5>
 	</div>

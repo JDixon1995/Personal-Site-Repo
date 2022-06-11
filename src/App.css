@@ -7,7 +7,7 @@
 }
 
 html {
-  background: linear-gradient( rgba(0, 0, 0, 0.7), 
+  background: linear-gradient( rgba(0, 0, 0, 0.9), 
   transparent),
   url("./images/background-image.jpeg");
   background-repeat: no-repeat;
@@ -25,7 +25,20 @@ h4, h5, h6 {
 }
 
 .header-section {
-  height: 25vh;
+  height: 35vh;
+  background-color: black;
+  border: 1px solid antiquewhite;
+  opacity: .85;
+}
+
+.contact-icon-div {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon-div img {
+  width: 75px;
+  height: 75px;
 }
 
 .block-section {
