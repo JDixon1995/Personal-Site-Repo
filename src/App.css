@@ -92,6 +92,15 @@ img {
   margin-bottom: 15px;
 }
 
+.project-card-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card {
+  width: 15%;
+}
+
 .email-container {
   height: 55vh;
   background-color: black;
