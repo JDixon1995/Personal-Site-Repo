@@ -68,7 +68,7 @@ h4, h5, h6 {
 }
 
 .tool-section {
-  height: 25vh;
+  height: 30vh;
   background-color: black;
   opacity: .85;
   border: 2px solid antiquewhite;
@@ -106,7 +106,9 @@ img {
 }
 
 .project-card {
-  width: 15%;
+  width: 25%;
+  display: inline-block;
+  text-align: center;
 }
 
 .email-container {
@@ -135,9 +137,17 @@ img {
 }
 
 .btn {
-  width: 20px;
-  height: 15px;
-  background-color: white;
+  display: inline-block;
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
 }
 
 button {
