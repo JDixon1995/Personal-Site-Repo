@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
 
-const ProjectCard = ( {projectTitle} ) => {
+const ProjectCard = ( {projectTitle, projectUrl} ) => {
   return (
 	<Card className="project-card">
   		<Card.Img variant="top" src="holder.js/100px180" />
@@ -12,7 +12,7 @@ const ProjectCard = ( {projectTitle} ) => {
       		Some quick example text to build on the card title and make up the bulk of
       		the card's content.
     		</Card.Text>
-    	<Button variant="primary">View Project</Button>
+    	<Button className="btn" variant="primary" href={projectUrl} >View Project</Button>
   		</Card.Body>
 	</Card>
   )
