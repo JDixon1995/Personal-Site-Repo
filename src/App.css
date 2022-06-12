@@ -42,12 +42,18 @@ h4, h5, h6 {
 }
 
 .block-section {
-  height: 25vh;
+  height: 35vh;
   background-color: black;
   border: 2px solid antiquewhite;
   border-radius: 4px solid;
   opacity: .85;
   margin-bottom: 15px;
+}
+
+.blurb-block article {
+  width: 60%;
+  margin: 15px auto;
+
 }
 
 .top-level-row {
