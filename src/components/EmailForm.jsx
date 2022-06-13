@@ -15,16 +15,29 @@ const EmailForm = () => {
 	const onSubmit = (e) => {
 		e.preventDefault()
 		send(
-			'SERVICE ID',
-			'TEMPLATE ID',
+			'service_t49292n',
+			'template_i2h8wpr',
 			toSend,
-			'User ID',
+			'R4NVelwvgbnC0gc1R',
 		)
 		.then((response) => {
 			console.log('SUCCESS!', response.status, response.text)
+			setToSend({
+				name:  '',
+				subject: '',
+				email: '',
+				text: '',
+			})
+			
 		})
 		.catch((error) => {
 			console.log('FAILED...', error)
+			setToSend({
+				name:  '',
+				subject: '',
+				email: '',
+				text: '',
+			})
 		})
 	}
 
@@ -38,7 +51,6 @@ const EmailForm = () => {
 			<a href=""></a>
 			<h4>Get In Touch</h4>
 			<form className="form-control" onSubmit={onSubmit}>
-				<a name="contact"></a>
 				<label>Name</label>
 				<input 
 				type="text" 
@@ -74,8 +86,8 @@ const EmailForm = () => {
 				value={toSend.text}
 				onChange={handleChange}
 				></textarea>
+				<button type="submit">Submit</button>
 			</form>
-			<button type="submit">Send</button>
 		</div>
   )
 }
