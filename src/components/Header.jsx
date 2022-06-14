@@ -4,7 +4,7 @@ import ProfilePicture from '../images/profilePic.jpeg'
 
 const Header = () => {
   return (
-	<div className="header-section">
+	<div className="header-section info-block">
 		<div className="bio-info">
 			<img src={ProfilePicture} alt="Me" />
 			<h1>John Dixon</h1>

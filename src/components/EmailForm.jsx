@@ -47,7 +47,7 @@ const EmailForm = () => {
 	}	
 
   return (
-	<div className="email-container">
+	<div className="email-container info-block">
 			<a href=""></a>
 			<h4>Get In Touch</h4>
 			<form onSubmit={onSubmit}>

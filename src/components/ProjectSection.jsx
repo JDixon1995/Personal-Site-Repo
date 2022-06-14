@@ -5,7 +5,7 @@ import CalculatorPreview from '../images/CalculatorPreview.jpeg'
 
 const ProjectSection = () => {
   return (
-	<div className="project-section">
+	<div className="project-section info-block">
 		<h6>My Personal Projects</h6>
 		<div className="project-card-section">
 		<ProjectCard 

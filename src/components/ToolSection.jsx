@@ -9,9 +9,7 @@ import BootstrapIcon from '../images/bootstrap.jpeg'
 const ToolSection = () => {
 
   return (
-	<div className='tool-section'>
-		<div className="top-level-row">
-		</div>
+	<div className='tool-section info-block'>
 		<div className="tool-bar">
 			<img src={ReactIcon} alt={'React'}></img>
 			<img src={ExpressIcon} alt={'Express'}></img>
