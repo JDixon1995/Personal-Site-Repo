@@ -31,6 +31,14 @@ h4, h5, h6 {
   opacity: .85;
 }
 
+.bio-info {
+  display: inline;
+}
+
+.bio-info img {
+  border-radius: 5rem;
+}
+
 .contact-icon-div {
   display: flex;
   justify-content: center;
@@ -47,6 +55,7 @@ h4, h5, h6 {
   border: 2px solid antiquewhite;
   border-radius: 4px solid;
   opacity: .85;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 

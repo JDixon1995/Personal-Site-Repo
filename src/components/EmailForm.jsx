@@ -50,7 +50,8 @@ const EmailForm = () => {
 	<div className="email-container">
 			<a href=""></a>
 			<h4>Get In Touch</h4>
-			<form className="form-control" onSubmit={onSubmit}>
+			<form onSubmit={onSubmit}>
+				<div className="form-control">
 				<label>Name</label>
 				<input 
 				type="text" 
@@ -86,6 +87,7 @@ const EmailForm = () => {
 				value={toSend.text}
 				onChange={handleChange}
 				></textarea>
+				</div>
 				<button type="submit">Submit</button>
 			</form>
 		</div>

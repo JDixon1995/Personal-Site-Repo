@@ -1,11 +1,15 @@
 import GithubIcon from '../images/github.jpeg'
 import LinkedInIcon from '../images/linkedin.jpeg'
+import ProfilePicture from '../images/profilePic.jpeg'
 
 const Header = () => {
   return (
 	<div className="header-section">
-		<h1>John Dixon</h1>
-		<p>Fullstack Web Developer</p>
+		<div className="bio-info">
+			<img src={ProfilePicture} alt="Me" />
+			<h1>John Dixon</h1>
+			<h4>Fullstack Web Developer</h4>
+		</div>
 		<div className="contact-icon-div">
 			<a href='https://github.com/JDixon1995'><img 
 			src={GithubIcon} 
