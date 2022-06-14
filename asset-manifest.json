@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Personal-Site-Repo/static/css/main.c6dcad67.css",
+    "main.js": "/Personal-Site-Repo/static/js/main.eee1088f.js",
+    "static/media/PokedexPreview.jpeg": "/Personal-Site-Repo/static/media/PokedexPreview.1c2b0eb38f754adea347.jpeg",
+    "static/media/background-image.jpeg": "/Personal-Site-Repo/static/media/background-image.f559ee06f7f81e9a08bd.jpeg",
+    "static/media/CalculatorPreview.jpeg": "/Personal-Site-Repo/static/media/CalculatorPreview.260ee4c755ea9e6ef762.jpeg",
+    "static/media/BudgetTrackerPreview.jpeg": "/Personal-Site-Repo/static/media/BudgetTrackerPreview.8030e4321cbb50b807fc.jpeg",
+    "static/media/github.jpeg": "/Personal-Site-Repo/static/media/github.5e3e464c8f1d4096fe1b.jpeg",
+    "static/media/react.jpeg": "/Personal-Site-Repo/static/media/react.86537f7bbc81c89da77f.jpeg",
+    "static/media/linkedin.jpeg": "/Personal-Site-Repo/static/media/linkedin.1428b68dfa2952f1ca40.jpeg",
+    "static/media/git.jpeg": "/Personal-Site-Repo/static/media/git.a3cc89200c9de93df2a3.jpeg",
+    "static/media/profilePic.jpeg": "/Personal-Site-Repo/static/media/profilePic.17a6059c235ead12a51e.jpeg",
+    "static/media/express.jpeg": "/Personal-Site-Repo/static/media/express.07120779ff2a0b57c7a6.jpeg",
+    "static/media/mongodb.jpeg": "/Personal-Site-Repo/static/media/mongodb.6b8b7e240c6fa15f45a3.jpeg",
+    "static/media/react-redux.jpeg": "/Personal-Site-Repo/static/media/react-redux.f54b16d5a24dbd6105aa.jpeg",
+    "index.html": "/Personal-Site-Repo/index.html",
+    "main.c6dcad67.css.map": "/Personal-Site-Repo/static/css/main.c6dcad67.css.map",
+    "main.eee1088f.js.map": "/Personal-Site-Repo/static/js/main.eee1088f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6dcad67.css",
+    "static/js/main.eee1088f.js"
+  ]
+}
