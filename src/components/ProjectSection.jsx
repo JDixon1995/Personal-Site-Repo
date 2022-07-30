@@ -1,5 +1,6 @@
 import ProjectCard from './ProjectCard'
 import BudgetAppPreview from '../images/BudgetTrackerPreview.jpeg'
+import MemoriesAppPreview from '../images/MemoriesAppPreview.png'
 import PokeDexPreview from '../images/PokedexPreview.jpeg'
 import CalculatorPreview from '../images/CalculatorPreview.jpeg'
 
@@ -8,6 +9,12 @@ const ProjectSection = () => {
 	<div className="project-section info-block">
 		<h6>My Personal Projects</h6>
 		<div className="project-card-section">
+		<ProjectCard 
+		projectTitle={'Memories App'}
+		projectUrl={'https://jdixon1995.github.io/Memories-App-Client/'}
+		previewImage={MemoriesAppPreview}
+		previewBlurb={'An app that serves user-created content. Using the MERN stack, this app has CRUD functionality.'}
+		/>
 		<ProjectCard 
 		projectTitle={'Budget Tracker App'}
 		projectUrl={'https://jdixon1995.github.io/React-Budget-App/'}
