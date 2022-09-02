@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Personal-Site-Repo/static/css/main.c6dcad67.css",
-    "main.js": "/Personal-Site-Repo/static/js/main.3f536ebb.js",
+    "main.js": "/Personal-Site-Repo/static/js/main.b6bd5395.js",
     "static/media/PokedexPreview.jpeg": "/Personal-Site-Repo/static/media/PokedexPreview.1c2b0eb38f754adea347.jpeg",
     "static/media/MemoriesAppPreview.png": "/Personal-Site-Repo/static/media/MemoriesAppPreview.fd73b75d034a52d30a5c.png",
     "static/media/background-image.jpeg": "/Personal-Site-Repo/static/media/background-image.f559ee06f7f81e9a08bd.jpeg",
     "static/media/CalculatorPreview.jpeg": "/Personal-Site-Repo/static/media/CalculatorPreview.260ee4c755ea9e6ef762.jpeg",
     "static/media/BudgetTrackerPreview.jpeg": "/Personal-Site-Repo/static/media/BudgetTrackerPreview.8030e4321cbb50b807fc.jpeg",
     "static/media/github.jpeg": "/Personal-Site-Repo/static/media/github.5e3e464c8f1d4096fe1b.jpeg",
+    "static/media/GoalSetterAppPreview.png": "/Personal-Site-Repo/static/media/GoalSetterAppPreview.d87430d13d4590dd1d86.png",
     "static/media/react.jpeg": "/Personal-Site-Repo/static/media/react.86537f7bbc81c89da77f.jpeg",
     "static/media/linkedin.jpeg": "/Personal-Site-Repo/static/media/linkedin.1428b68dfa2952f1ca40.jpeg",
     "static/media/git.jpeg": "/Personal-Site-Repo/static/media/git.a3cc89200c9de93df2a3.jpeg",
@@ -17,10 +18,10 @@
     "static/media/react-redux.jpeg": "/Personal-Site-Repo/static/media/react-redux.f54b16d5a24dbd6105aa.jpeg",
     "index.html": "/Personal-Site-Repo/index.html",
     "main.c6dcad67.css.map": "/Personal-Site-Repo/static/css/main.c6dcad67.css.map",
-    "main.3f536ebb.js.map": "/Personal-Site-Repo/static/js/main.3f536ebb.js.map"
+    "main.b6bd5395.js.map": "/Personal-Site-Repo/static/js/main.b6bd5395.js.map"
   },
   "entrypoints": [
     "static/css/main.c6dcad67.css",
-    "static/js/main.3f536ebb.js"
+    "static/js/main.b6bd5395.js"
   ]
 }
