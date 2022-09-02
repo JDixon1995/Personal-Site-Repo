@@ -1,4 +1,5 @@
 import ProjectCard from './ProjectCard'
+import GoalAppPreview from '../images/GoalSetterAppPreview.png'
 import BudgetAppPreview from '../images/BudgetTrackerPreview.jpeg'
 import MemoriesAppPreview from '../images/MemoriesAppPreview.png'
 import PokeDexPreview from '../images/PokedexPreview.jpeg'
@@ -9,6 +10,12 @@ const ProjectSection = () => {
 	<div className="project-section info-block">
 		<h6>My Personal Projects</h6>
 		<div className="project-card-section">
+		<ProjectCard 
+		projectTitle={'Goal Setter App.'}
+		projectUrl={'https://jdixon1995.github.io/MERN-Goal-App-Front-End/'}
+		previewImage={GoalAppPreview}
+		previewBlurb={'An app built w/ the MERN stack, and React Redux. Features authentication, and persistent memory.'}
+		/>
 		<ProjectCard 
 		projectTitle={'Memories App'}
 		projectUrl={'https://jdixon1995.github.io/Memories-App-Client/'}
